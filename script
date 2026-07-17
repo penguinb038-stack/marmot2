@@ -3,6 +3,7 @@ getgenv().GAG2Config = {
     FPS_CAP = 60,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
     COLLECT_FRUIT_DELAY = 600,
+    ADD_FRIEND = true,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
         ["Raccoon"] = 99,
