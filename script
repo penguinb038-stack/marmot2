@@ -106,7 +106,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = { "CrimsonWave52" },  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = { ["Super Watering Can"] = 3, ["Super Sprinkler"] = 5, ["Tulip"] = 50, ["Sunflower"] = 50, ["Cherry"] = 50, ["Mango"] = 50, ["Banana"] = 50, ["Tomato"] = 1000, ["Apple"] = 50, ["Black Dragon"] = 1, ["Corn"] = 100, ["Dragon Fruit"] = 50, ["Coconut"] = 50, ["Acorn"] = 50, ["Bamboo"] = 500, ["Trowel"] = 100, ["Raccoon"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["Venom Spitter"] = 1, ["Turtle"] = 1, ["Unicorn"] = 1, ["GoldenDragonfly"] = 1, ["Hypno Bloom"] = 1, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },  -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = { ["Super Watering Can"] = 3, ["Super Sprinkler"] = 5, ["Cherry"] = 50, ["Mango"] = 50, ["Apple"] = 50, ["BlackDragon"] = 1, ["Corn"] = 100, ["Dragon Fruit"] = 50, ["Coconut"] = 50, ["Acorn"] = 50, ["Bamboo"] = 500, ["Trowel"] = 100, ["Raccoon"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["Venom Spitter"] = 1, ["Turtle"] = 1, ["Unicorn"] = 1, ["GoldenDragonfly"] = 1, ["Hypno Bloom"] = 1, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
