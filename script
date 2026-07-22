@@ -104,7 +104,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = { "LunarVolt38", "VortexPanda526" },  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = { ["Super Watering Can"] = 3, ["Super Sprinkler"] = 5, ["Mango"] = 50, ["Apple"] = 500, ["BlackDragon"] = 1, ["Corn"] = 100, ["Dragon Fruit"] = 100, ["Coconut"] = 100, ["Acorn"] = 20, ["Bamboo"] = 1000, ["Trowel"] = 1000, ["Raccoon"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["Venom Spitter"] = 1, ["Mega"] = 5, ["Hypno Bloom"] = 1, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },  -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = { ["Super Watering Can"] = 3, ["Super Sprinkler"] = 5, ["Mango"] = 50, ["Apple"] = 500, ["BlackDragon"] = 1, ["Corn"] = 100, ["Dragon Fruit"] = 100, ["Coconut"] = 100, ["Acorn"] = 20, ["Bamboo"] = 1000, ["Trowel"] = 300, ["Raccoon"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1, ["Venom Spitter"] = 1, ["Mega"] = 5, ["Hypno Bloom"] = 1, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
