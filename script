@@ -95,7 +95,7 @@ getgenv().GAG2Config = {
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
 
     SELL_ALL_DAILY_DEAL = 100000000,  -- Min "daily sell all" value
-    FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
+    FOCUS_COLLECT_DROPPED_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
     EXPAND_PLOT = 0,  -- 0 = No expand, 3 = expand plot 3 times
     BUY_AUCTION = {},  -- ["Item Name"] = { Max Sheckle Price, Buy Until Amount }
     BUY_GEAR = { ["Super Watering Can"] = 999, ["Super Sprinkler"] = 999, ["Trowel"] = 999 },  -- ["Gear Name"] = Amount
