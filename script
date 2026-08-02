@@ -100,13 +100,11 @@ getgenv().GAG2Config = {
     USE_WATERING_CAN = {},  -- "Watering Can Name"
     USE_WATERING_CAN_DELAY = 60,  -- Seconds
 
-    -- Other Config
-    COLLECT_PLANT = {
-        "Maple Bamboo",
-        "Maple Tulip"
-        "Maple Carrot",
-        "Maple Mushroom",
-    },  --
+   -- Other Config
+    COLLECT_PLANT_IF_MUTATED = {
+        "Bamboo",
+        "Mushroom",
+    },  -- Only Collect Fruit When It Has ANY Mutation
 
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
 
