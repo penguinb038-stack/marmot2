@@ -115,26 +115,28 @@ getgenv().GAG2Config = {
     -- Set false to Collect Slightly Slower
 
     EXPAND_PLOT = 4,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
-AUTO_MAIL = {},
-	["LunarVolt38"] = 
-		{ 
-			["Super Magic Mail"] = 1,
-			["Super Syrup Watering Can"] = 1,
-			["Amber Cranberry"] = 1,
-			["Conifer Cone"] = 1,
-			["Maple Venom Spitter"] = 1,
-			["Maple Poison Apple"] = 1,
-			["Maple Pomegranate"] = 1,
-			["Maple Venus Fly Trap"] = 1,
-			["Atlantic Giant Pumpkin"] = 1,
-			["Gold"] = 10,
-			["Rainbow"] = 10,
-			["Star Fruit"] = 1,
-			["Sun Bloom"] = 1,
-            ["Trowel"] = 100, 
-		}
-    AUTO_MAIL_DELAY = 60,  -- Seconds
-    COLLECT_MAIL = true,
+
+AUTO_MAIL = {
+    ["LunarVolt38"] = {
+        ["Super Magic Mail"] = 1,
+        ["Super Syrup Watering Can"] = 1,
+        ["Amber Cranberry"] = 1,
+        ["Conifer Cone"] = 1,
+        ["Maple Venom Spitter"] = 1,
+        ["Maple Poison Apple"] = 1,
+        ["Maple Pomegranate"] = 1,
+        ["Maple Venus Fly Trap"] = 1,
+        ["Atlantic Giant Pumpkin"] = 1,
+        ["Gold"] = 10,
+        ["Trowel"] = 100,
+        ["Rainbow"] = 10,
+        ["Star Fruit"] = 1,
+        ["Sun Bloom"] = 1
+    }
+},
+
+AUTO_MAIL_DELAY = 60,  -- Seconds
+COLLECT_MAIL = true,
 
     -- Discord Config
     WEBHOOK_PET_NAME = {},
