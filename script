@@ -115,7 +115,7 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 4,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config
-    AUTO_MAIL = {},  -- ["VortexPanda526", "LunarVolt38"] = { ["Super Syrup Sprinkler = 3, ["Super Syrup Watering Can"] = 5, ["Amber Cranberry"] = 1, ["Conifer Cone"] = 1, ["Maple Venom Spitter"] = 1, ["Maple Poison Apple"] = 1, ["Maple Pomegranate"] = 1, ["Maple Venus Fly Trap"] = 1, ["Atlantic Giant Pumpkin"] = 5, ["Gold"] = 10, ["Rainbow"] = 10, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },
+    AUTO_MAIL = {},  -- ["VortexPanda526", "LunarVolt38"] = { ["Super Syrup Sprinkler = 3, ["Super Syrup Watering Can"] = 5, ["Amber Cranberry"] = 1, ["Conifer Cone"] = 1, ["Maple Venom Spitter"] = 1, ["Maple Poison Apple"] = 1, ["Maple Pomegranate"] = 1, ["Maple Venus Fly Trap"] = 1, ["Atlantic Giant Pumpkin"] = 1, ["Gold"] = 10, ["Rainbow"] = 10, ["Star Fruit"] = 1, ["Sun Bloom"] = 1 },
     AUTO_MAIL_DELAY = 60,  -- Seconds
     COLLECT_MAIL = true,
 
