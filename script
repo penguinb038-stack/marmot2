@@ -1,158 +1,129 @@
-script_key="cskMHkBTlGvOtbuRzTpEpcZRCAclNwcw";
-getgenv().GAG2Config = {
-    WORLD = "FallHarvest",
-    FPS_CAP = 5,  -- MUST USE 5+ FPS
-    ADD_FRIEND = true,
-    AUTO_UPDATE_RESTART = true,
-    COLLECT_FRUIT_DELAY = 1,
-
-    -- Pet Config
-    MAX_PET_EQUIP = 6,
-    BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
-        ["ShadowDragon"] = 99,
+task.wait(10)
+script_key = "gGFvkYLmDRwhOkHkhVUCHhKGhOjPlXlP";
+getgenv().GAG2 = {
+    Fps = 5,
+    MergeEclipseMoon = true,
+    MailDelay = 60,
+    World = "FallHarvest", -- or Main
+    MovementMethod = "Tween", -- hoáº·c "Teleport"
+    AutoBuySeed = true,
+    BuyGearShop = {
+        "Super Syrup Watering Can","Super Syrup Sprinkler","Trowel","Super Magic Mail"
     },
-
-    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
-        {"Swan", 6, 1},
-        {"Turkey", 6, 2},
+    BuyGearMinSheckles = 5000000,
+    PlantSeeds = {
+        ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
+        ["Maple Cherry"] = 10, ["Maple Dragon Fruit"] = 10, ["Maple Acorn"] = 5, ["Maple Pomegranate"] = 20, ["Conifer Cone"] = 20,
+        ["Maple Poison Apple"] = 20,
     },
-
-    -- Plant Config
-    PLANT_SEED = {  -- ["Seed Name"] = Plant Until Amount
-        ["Maple Carrot"] = 9999,
-        ["Maple Strawberry"] = 0,
-        ["Maple Blueberry"] = 0,
-        ["Maple Tulip"] = 9999,
-        ["Maple Tomato"] = 0,
-        ["Maple Apple"] = 0,
-        ["Maple Bamboo"] = 9999,
-        ["Maple Corn"] = 10,
-        ["Maple Cactus"] = 0,
-        ["Maple Pineapple"] = 0,
-        ["Maple Mushroom"] = 9999,
-        ["Maple Green Bean"] = 10,
-        ["Maple Banana"] = 10,
-        ["Maple Grape"] = 10,
-        ["Maple Coconut"] = 10,
-        ["Maple Mango"] = 10,
-        ["Maple Dragon Fruit"] = 10,
-        ["Maple Acorn"] = 10,
-        ["Maple Cherry"] = 10,
-        ["Maple Sunflower"] = 10,
-        ["Atlantic Giant Pumpkin"] = 0,
-        ["Maple Venus Fly Trap"] = 0,
-        ["Maple Pomegranate"] = 0,
-        ["Maple Poison Apple"] = 0,
-        ["Maple Venom Spitter"] = 0,
+    SeedInventoryLimit = {
+        ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
+        ["Maple Cherry"] = 10,  ["Maple Dragon Fruit"] = 10, ["Maple Acorn"] = 10, ["Maple Pomegranate"] = 20, ["Conifer Cone"] = 20,
+        ["Maple Venom Spitter"] = 20, ["Maple Venus Fly Trap"] = 20, ["Maple Poison Apple"] = 20, ["Maple Strawberry"] = 0,
+        ["Maple Blueberry"] = 0, ["Maple Tomato"] = 0, ["Maple Apple"] = 0,
+        ["Maple Corn"] = 0, ["Maple Cactus"] = 0, ["Maple Pineapple"] = 0, ["Maple Green Bean"] = 0,
+        ["Maple Banana"] = 0, ["Maple Grape"] = 0, ["Maple Coconut"] = 0, ["Maple Mango"] = 0,
+        ["Maple Acorn"] = 0,["Maple Sunflower"] = 0,  ["Atlantic Giant Pumpkin"] = 10,
     },
-
-    -- Buy Config
-    BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
-        ["Maple Carrot"] = 9999,
-        ["Maple Strawberry"] = 10,
-        ["Maple Blueberry"] = 10,
-        ["Maple Tulip"] = 9999,
-        ["Maple Tomato"] = 10,
-        ["Maple Apple"] = 10,
-        ["Maple Bamboo"] = 9999,
-        ["Maple Corn"] = 10,
-        ["Maple Cactus"] = 10,
-        ["Maple Pineapple"] = 10,
-        ["Maple Mushroom"] = 9999,
-        ["Maple Green Bean"] = 10,
-        ["Maple Banana"] = 10,
-        ["Maple Grape"] = 10,
-        ["Maple Coconut"] = 10,
-        ["Maple Mango"] = 10,
-        ["Maple Dragon Fruit"] = 10,
-        ["Maple Acorn"] = 10,
-        ["Maple Cherry"] = 10,
-        ["Maple Sunflower"] = 10,
-        ["Atlantic Giant Pumpkin"] = 9999,
-        ["Maple Venus Fly Trap"] = 9999,
-        ["Maple Pomegranate"] = 9999,
-        ["Maple Poison Apple"] = 9999,
-        ["Maple Venom Spitter"] = 9999,
-        ["Conifer Cone"] = 9999,
-        ["Amber Cranberry"] = 9999,
+    ["seed dont buy"] = {
+        "Moon Bloom","Hypno Bloom","Dragon's Breath","Maple Poison Apple","Maple Strawberry",
+        "Maple Blueberry","Maple Tomato","Maple Apple","Maple Corn","Maple Cactus",
+        "Maple Pineapple","Maple Green Bean","Maple Banana","Maple Grape","Maple Coconut","Maple Mango",
+        "Maple Sunflower",
     },
-
-    BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
-    BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
-
-    BUY_GEAR_MIN_SHECKLE = 1000000,
-    BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
-        ["Super Syrup Watering Can"] = 9999,
-        ["Super Syrup Sprinkler"] = 9999,
-        ["Super Magic Mail"] = 999,
-        ["Trowel"] = 9999,
+    DONT_SHOVEL_PLANTS = {
+        "Maple Carrot","Maple Tulip","Maple Bamboo","Maple Mushroom",
+        "Maple Cherry","Maple Dragon Fruit","Maple Pomegranate","Conifer Cone",
+        "Maple Venom Spitter","Maple Venus Fly Trap","Maple Poison Apple","Maple Acorn","Atlantic Giant Pumpkin",
     },
-
-    -- Sell Config
-    SELL_FRUIT_MULTIPLIER = {
-        ["Maple Bamboo"] = 1,
-        ["Maple Mushroom"] = 1.5,
+    BuyPets = {
+        ["Dog"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Hedgehog"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Turkey"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Squirrel"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Swan"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Fox"] = math.huge,
+        ["Wolf"] = math.huge,
+        ["Swan"] = 6,
     },
-
-    SELL_ALL_DAILY_DEAL = 1000000,  -- Minimum Value to Trigger Daily "Sell All"
-    SELL_ALL_DELAY = 5,  -- Seconds
-
-    -- Consumable Config
-    USE_SPRINKLER = {},  -- "Sprinkler Name" (Only One Sprinkler Can Be Used at a Time)
-    USE_WATERING_CAN = {},  -- "Watering Can Name"
-    USE_WATERING_CAN_DELAY = 60,  -- Seconds
-
-   -- Other Config
+    EquipPets = {
+        ["Swan"] = {Priority = 1},
+    },
+    SellPets = {
+    },
+    UseGear = {
+        "Syrup Watering Can", "Syrup Sprinkler",
+    },
+    CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {
-        "Bamboo",
-        "Mushroom",
-    },  -- Only Collect Fruit When It Has ANY Mutation
-
-    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
-
-    FOCUS_COLLECT_DROPPED_SEED = false,
-    -- Set true for Public Servers to Collect Immediately
-    -- Set false to Collect Slightly Slower
-
-    EXPAND_PLOT = 4,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
-
-AUTO_MAIL = {
-    ["LunarVolt38"] = {
-        ["Super Magic Mail"] = 1,
-        ["Super Syrup Watering Can"] = 1,
-        ["Amber Cranberry"] = 1,
-        ["Conifer Cone"] = 1,
-        ["Maple Venom Spitter"] = 1,
-        ["Maple Poison Apple"] = 1,
-        ["Maple Pomegranate"] = 1,
-        ["Maple Venus Fly Trap"] = 1,
-        ["Atlantic Giant Pumpkin"] = 1,
-        ["Gold"] = 10,
-        ["Trowel"] = 100,
-        ["Rainbow"] = 10,
-        ["Star Fruit"] = 1,
-        ["Sun Bloom"] = 1
-    }
-},
-
-AUTO_MAIL_DELAY = 60,  -- Seconds
-COLLECT_MAIL = true,
-
-    -- Discord Config
-    WEBHOOK_PET_NAME = {},
-    WEBHOOK_PET_RARITY = {
-        "Mythic",
-        "Super",
-        "Secret",
+        "Maple Mushroom","Maple Dragon Fruit","Maple Cherry","Maple Acorn", 
+        "Maple Pomegranate","Maple Venom Spitter","Maple Venus Fly Trap",
+        "Maple Poison Apple","Maple Sunflower","Maple Sun Bloom","Maple Star Fruit","Atlantic Giant Pumpkin",
     },
-
-    WEBHOOK_URL = "",
-    DISCORD_ID = "",
-    WEBHOOK_NOTE = "",  -- Personal Webhook
-
-    SHOW_PUBLIC_DISCORD_ID = true,
-    SHOW_WEBHOOK_USERNAME = true,  -- Personal Webhook
-    SHOW_WEBHOOK_JOBID = true,  -- Personal Webhook
-}
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
+    SellFruitMultiplier = {
+        ["Maple Mushroom"] = 2, ["Maple Dragon Fruit"] = 2, ["Maple Cherry"] = 2, ["Maple Acorn"] = 2, ["Maple Venom Spitter"] = 2, 
+        ["Maple Venus Fly Trap"] = 2, ["Maple Poison Apple"] = 2, ["Maple Sunflower"] = 2, ["Maple Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2,
+    },
+    BuyAuction = {
+        ["Super Syrup Sprinkler"] = 5000000,
+        ["Super Syrup Watering Can"] = 10000000,
+        ["Maple Dragon Fruit"] = 1500000,
+        ["Maple Acorn"] = 3500000,
+    },
+    GearInventoryLimit = {
+        ["Syrup Watering Can"] = 20,
+        ["Syrup Sprinkler"] = 20,
+        ["Harp"] = 2,
+        ["Rare Magic Mail"] = 2,
+        ["Legendary Magic Mail"] = 2,
+        ["Super Magic Mail"] = 200,
+        ["Super Syrup Watering Can"] = 200,
+        ["Super Syrup Sprinkler"] = 200,
+    },
+    BuyCrateShop = {
+        -- "Light Crate", "Arch Crate",
+    },
+    CrateInventoryLimit = {
+        -- ["Light Crate"] = 5,
+    },
+        OpenSeedPacks = {
+        --"Common Seed Pack", "Uncommon Seed Pack", "Rare Seed Pack",
+    },
+    OpenEggs = {
+        "Common Egg",
+    },
+    LimitPlants = 300,
+    ExpandLimit = 3,
+    MaxPetSlots = 6,
+    MailReceivers = {"LunarVolt38", "VortexPanda526",},
+    MailSendItems = {
+        ["Dog"] = { Amount = "All", To = {""} },
+        ["Hedgehog"] = { Amount = "All", To = {""} },
+        ["Turkey"] = { Amount = "All", To = {""} },
+        ["Squirrel"] = { Amount = "All", To = {""} },
+        ["Swan"] = { Amount = "All", To = {""} },
+        ["Fox"] = { Amount = "All", To = {""} },
+        ["Wolf"] = { Amount = "All", To = {""} },
+        ["Super Syrup Sprinkler"] = { Amount = "All", To = {""} },
+        ["Super Syrup Watering Can"] = { Amount = "All", To = {""} },
+        ["Trowel"] = { Amount = "50", To = {""} },
+        ["Mega"] = { Amount = "All", To = {""} },
+        ["Gold"] = { Amount = "All", To = {""} },
+        ["Sun Bloom"] = { Amount = "All", To = {""} },
+        ["Star Fruit"] = { Amount = "All", To = {""} },
+        ["Maple Bamboo"] = { Amount = 200, To = {""} },
+        ["Rainbow"] = { Amount = "All", To = {""} },
+        ["Atlantic Giant Pumkin"] = { Amount = "All", To = {""} },
+        ["Maple Venom Spitter"] = { Amount = "All", To = {""} },
+        ["Maple Venus Fly Trap"] = { Amount = "All", To = {""} },
+        ["Maple Pomegrante"] = { Amount = "All", To = {""} },
+        ["Legendary Magic Mail"] = { Amount = "All", To = {""} },
+        ["Amber Cranberry"] = { Amount = "All", To = {""} },
+    },
+    
+    ShowUserWebhook = true,
+    WebhookUrl = "",
+    DiscordId = "",
+    RamKickLimit = 7000,
+    }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7f7baee1f0b7e01fe5ee8a3f5aabbfbf.lua"))()
