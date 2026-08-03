@@ -107,7 +107,7 @@ getgenv().GAG2 = {
         ["Wolf"] = { Amount = "All", To = {""} },
         ["Super Syrup Sprinkler"] = { Amount = "All", To = {""} },
         ["Super Syrup Watering Can"] = { Amount = "All", To = {""} },
-        ["Trowel"] = { Amount = "50", To = {""} },
+        ["Trowel"] = { Amount = "ALL", To = {""} },
         ["Mega"] = { Amount = "All", To = {""} },
         ["Gold"] = { Amount = "All", To = {""} },
         ["Sun Bloom"] = { Amount = "All", To = {""} },
