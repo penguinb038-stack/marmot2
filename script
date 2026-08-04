@@ -25,7 +25,7 @@ getgenv().GAG2 = {
         ["Maple Acorn"] = 0,["Maple Sunflower"] = 0,  ["Atlantic Giant Pumpkin"] = 10,
     },
     ["seed dont buy"] = {
-        "Moon Bloom","Hypno Bloom","Dragon's Breath","Maple Poison Apple","Maple Strawberry",
+        "Moon Bloom","Hypno Bloom","Dragon's Breath","Maple Strawberry",
         "Maple Blueberry","Maple Tomato","Maple Apple","Maple Corn","Maple Cactus",
         "Maple Pineapple","Maple Green Bean","Maple Banana","Maple Grape","Maple Coconut","Maple Mango",
         "Maple Sunflower",
@@ -79,7 +79,6 @@ getgenv().GAG2 = {
         ["Harp"] = 2,
         ["Rare Magic Mail"] = 2,
         ["Legendary Magic Mail"] = 2,
-        ["Super Magic Mail"] = 200,
         ["Super Syrup Watering Can"] = 200,
         ["Super Syrup Sprinkler"] = 200,
     },
