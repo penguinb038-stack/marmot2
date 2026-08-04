@@ -3,7 +3,7 @@ script_key = "gGFvkYLmDRwhOkHkhVUCHhKGhOjPlXlP";
 getgenv().GAG2 = {
     Fps = 5,
     MergeEclipseMoon = true,
-    MailDelay = 150,
+    MailDelay = 30,
     World = "FallHarvest", -- or Main
     MovementMethod = "Tween", -- hoáº·c "Teleport"
     AutoBuySeed = true,
@@ -12,9 +12,8 @@ getgenv().GAG2 = {
     },
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
-        ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
-        ["Maple Cherry"] = 10, ["Maple Dragon Fruit"] = 10, ["Maple Acorn"] = 5, ["Maple Pomegranate"] = 20, ["Conifer Cone"] = 20,
-        ["Maple Venom Spitter"] = 20, ["Maple Venus Fly Trap"] = 20, ["Maple Poison Apple"] = 20, 
+        ["Maple Carrot"] = 15, ["Maple Tulip"] = 15, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
+        ["Maple Cherry"] = 15, ["Maple Dragon Fruit"] = 20, ["Maple Acorn"] = 15, ["Maple Pomegranate"] = 25, ["Conifer Cone"] = 25, ["Maple Poison Apple"] = 25,
     },
     SeedInventoryLimit = {
         ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
