@@ -46,7 +46,8 @@ getgenv().GAG2 = {
         ["Swan"] = 6,
     },
     EquipPets = {
-        ["Swan"] = {Priority = 1},
+        ["Hedgehog"] = { Priority = 1, Amount = 3 },
+        ["Dog"] = { Priority = 2, Amount = 3 },
     },
     SellPets = {
     },
