@@ -112,4 +112,4 @@ getgenv().GAG2 = {
     DiscordId = "",
     RamKickLimit = 7000,
     }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7f7baee1f0b7e01fe5ee8a3f5aabbfbf.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7ed246efb4dd28d216bcda6b71c86c06.lua"))()
