@@ -3,18 +3,18 @@ script_key = "gGFvkYLmDRwhOkHkhVUCHhKGhOjPlXlP";
 getgenv().GAG2 = {
     Fps = 5,
     MergeEclipseMoon = true,
-    MailDelay = 60,
+    MailDelay = 150,
     World = "FallHarvest", -- or Main
     MovementMethod = "Tween", -- hoáº·c "Teleport"
     AutoBuySeed = true,
     BuyGearShop = {
-        "Super Syrup Watering Can","Super Syrup Sprinkler","Trowel","Super Magic Mail"
+        "Super Syrup Watering Can","Super Syrup Sprinkler",
     },
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
-        ["Maple Carrot"] = 10, ["Maple Tulip"] = 100, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
-        ["Maple Cherry"] = 10, ["Maple Dragon Fruit"] = 20, ["Maple Acorn"] = 15, ["Maple Pomegranate"] = 25, ["Conifer Cone"] = 25,
-        ["Maple Poison Apple"] = 25,
+        ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
+        ["Maple Cherry"] = 10, ["Maple Dragon Fruit"] = 10, ["Maple Acorn"] = 5, ["Maple Pomegranate"] = 20, ["Conifer Cone"] = 20,
+        ["Maple Venom Spitter"] = 20, ["Maple Venus Fly Trap"] = 20, ["Maple Poison Apple"] = 20, 
     },
     SeedInventoryLimit = {
         ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100, ["Maple Mushroom"] = 100,
@@ -47,8 +47,7 @@ getgenv().GAG2 = {
         ["Swan"] = 6,
     },
     EquipPets = {
-        ["Swan"] = { Priority = 1, Amount = 6 },
-        
+        ["Swan"] = {Priority = 1},
     },
     SellPets = {
     },
@@ -94,25 +93,19 @@ getgenv().GAG2 = {
         "Common Egg",
     },
     LimitPlants = 300,
-    ExpandLimit = 3,
+    ExpandLimit = 2,
     MaxPetSlots = 6,
-    MailReceivers = { "LunarVolt38" }
+    MailReceivers = {"LunarVolt38", "VortexPanda526"},
     MailSendItems = {
-        ["Swan"] = Amount = "All",
-        ["Fox"] = Amount = "All", 
-        ["Wolf"] = Amount = "All", 
-        ["Super Syrup Sprinkler"] = Amount = "All",
-        ["Super Syrup Watering Can"] = Amount = "All", 
-        ["Trowel"] = Amount = "ALL",
-        ["Mega"] = Amount = "All",
-        ["Gold"] = Amount = "All",
-        ["Rainbow"] = Amount = "All",
-        ["Atlantic Giant Pumkin"] = Amount = "All",
-        ["Maple Venom Spitter"] = Amount = "All",
-        ["Maple Venus Fly Trap"] = Amount = "All",
-        ["Maple Pomegrante"] = Amount = "All", 
-        ["Legendary Magic Mail"] = Amount = "All",
-        ["Amber Cranberry"] = Amount = "All",
+        ["Super Syrup Sprinkler"] = { Amount = "All", To = {"VortexPanda526"} },
+        ["Super Syrup Watering Can"] = { Amount = "All", To = {"VortexPanda526"} },
+        ["Mega"] = { Amount = "All", To = {"VortexPanda526"} },
+        ["Gold"] = { Amount = "All", To = {"VortexPanda526"} },
+        ["Maple Bamboo"] = { Amount = 200, To = {"LunarVolt38"} },
+        ["Rainbow"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Legendary Magic Mail"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Amber Cranberry"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Atlantic Giant Pumpkin"] = { Amount = "All", To = {"LunarVolt38"} },
     },
     
     ShowUserWebhook = true,
