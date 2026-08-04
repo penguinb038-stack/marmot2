@@ -64,8 +64,8 @@ getgenv().GAG2 = {
         "Maple Poison Apple","Maple Sunflower","Maple Bamboo",
     },
     SellFruitMultiplier = {
-        ["Maple Mushroom"] = 2, ["Maple Dragon Fruit"] = 2, ["Maple Cherry"] = 2, ["Maple Acorn"] = 2, ["Maple Venom Spitter"] = 2, 
-        ["Maple Venus Fly Trap"] = 2, ["Maple Poison Apple"] = 2, ["Maple Sunflower"] = 2, ["Maple Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2,
+        ["Maple Mushroom"] = 1, ["Maple Dragon Fruit"] = 1, ["Maple Cherry"] = 1, ["Maple Acorn"] = 1, ["Maple Venom Spitter"] = 1, 
+        ["Maple Venus Fly Trap"] = 1, ["Maple Poison Apple"] = 1, ["Maple Sunflower"] = 1, ["Maple Pomegranate"] = 1, ["Atlantic Giant Pumpkin"] = 4,
     },
     BuyAuction = {
         ["Super Syrup Sprinkler"] = 5000000,
