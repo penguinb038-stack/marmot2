@@ -2,8 +2,10 @@ task.wait(10)
 script_key = "gGFvkYLmDRwhOkHkhVUCHhKGhOjPlXlP";
 getgenv().GAG2 = {
     Fps = 5,
-    MergeEclipseMoon = true,
+    SELL_ALL_DAILY_DEAL = 100000000,  
+    SELL_ALL_DELAY = 20, 
     MailDelay = 30,
+    COLLECT_MAIL = true,
     World = "FallHarvest", -- or Main
     MovementMethod = "Tween", -- hoáº·c "Teleport"
     AutoBuySeed = true,
