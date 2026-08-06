@@ -56,7 +56,6 @@ getgenv().GAG2 = {
     UseGear = {
         "Syrup Watering Can", "Syrup Sprinkler",
     },
-
     ["Wait plant reach target kilogram"] = {
         ["Atlantic Giant Pumpkin"] = 50,
     },
