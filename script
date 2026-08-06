@@ -40,6 +40,7 @@ getgenv().GAG2 = {
     BuyPets = {
         ["Dog"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Hedgehog"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["ShadowDragon"] = { Normal= 99, Big = 99, Huge = 99, Rainbow = 99 },
         ["Turkey"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Squirrel"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Swan"] = { Big = 99, Huge = 99, Rainbow = 99 },
@@ -115,8 +116,8 @@ getgenv().GAG2 = {
     },
     
     ShowUserWebhook = true,
-    WebhookUrl = "",
-    DiscordId = "",
+    WebhookUrl = "https://discord.com/api/webhooks/1534892285848715305/BCpsJHdgXUzct6jIBObuUpMDqENzk8iMF8nPvCuveyPkE-7VR7zsISg64BSTDnEa-6fm",
+    DiscordId = "1223759076216012911",
     RamKickLimit = 7000,
     }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7ed246efb4dd28d216bcda6b71c86c06.lua"))()
