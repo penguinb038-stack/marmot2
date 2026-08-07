@@ -14,11 +14,11 @@ getgenv().GAG2 = {
     },
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
-        ["Maple Carrot"] = 15, ["Maple Tulip"] = 15, ["Maple Bamboo"] = 1000, ["Maple Mushroom"] = 1000, ["Atlantic Giant Pumpkin"] = 5,
+        ["Maple Carrot"] = 15, ["Maple Tulip"] = 1005, ["Maple Bamboo"] = 1000, ["Maple Mushroom"] = 1000, ["Atlantic Giant Pumpkin"] = 5,
          
     },
     SeedInventoryLimit = {
-        ["Maple Carrot"] = 10, ["Maple Tulip"] = 10, ["Maple Bamboo"] = 100000, ["Maple Mushroom"] = 100000,
+        ["Maple Carrot"] = 10, ["Maple Tulip"] = 1000, ["Maple Bamboo"] = 100000, ["Maple Mushroom"] = 100000,
         ["Maple Cherry"] = 10,  ["Maple Dragon Fruit"] = 10000, ["Maple Acorn"] = 10000, ["Maple Pomegranate"] = 2000, ["Conifer Cone"] = 2000,
         ["Maple Venom Spitter"] = 2000, ["Maple Venus Fly Trap"] = 2000, ["Maple Poison Apple"] = 2000, ["Maple Strawberry"] = 0,
         ["Maple Blueberry"] = 0, ["Maple Tomato"] = 0, ["Maple Apple"] = 0,
