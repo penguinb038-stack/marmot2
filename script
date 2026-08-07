@@ -105,7 +105,7 @@ getgenv().GAG2 = {
         ["Rainbow"] = { Amount = "10", To = {"VortexPanda526"} },
         ["Legendary Magic Mail"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Amber Cranberry"] = { Amount = "All", To = {"LunarVolt38"} },
-        [ "Maple Venom Spitter"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Maple Venom Spitter"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Maple Venus Fly Trap"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Atlantic Giant Pumpkin"] = { Amount = "2", To = {"LunarVolt38"} },
         ["Maple Poison Apple"] = { Amount = "All", To = {"LunarVolt38"} },
