@@ -56,7 +56,7 @@ getgenv().GAG2 = {
         "Syrup Watering Can", "Syrup Sprinkler",
     },
     ["Wait plant reach target kilogram"] = {
-        ["Atlantic Giant Pumpkin"] = 50,
+        ["Atlantic Giant Pumpkin"] = 30,
     },
     CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {
