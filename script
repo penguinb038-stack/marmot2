@@ -59,13 +59,12 @@ getgenv().GAG2 = {
         ["Atlantic Giant Pumpkin"] = 50,
     },
     CollectSeedPacks = true,
-    COLLECT_PLANT = {
-        "Maple Mushroom","Maple Dragon Fruit","Maple Cherry","Maple Acorn", 
-        "Maple Pomegranate","Maple Venom Spitter","Maple Venus Fly Trap",
-        "Maple Poison Apple","Maple Sunflower","Maple Bamboo",
+    COLLECT_PLANT_IF_MUTATED = {
+        "Maple Mushroom",
     },
     SellFruitMultiplier = {
         ["Atlantic Giant Pumpkin"] = 4,
+        ["Maple Mushroom"] = 2,
     },
     BuyAuction = {
         ["Super Syrup Sprinkler"] = 5000000,
