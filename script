@@ -110,6 +110,7 @@ getgenv().GAG2 = {
         ["Atlantic Giant Pumpkin"] = { Amount = "2", To = {"LunarVolt38"} },
         ["Maple Poison Apple"] = { Amount = "All", To = {"LunarVolt38"} },
         ["Maple Pomegranate"] = { Amount = "All", To = {"LunarVolt38"} },
+        ["Conifer Cone"] = { Amount = "All", To = {"LunarVolt38"} },
     },
     
     ShowUserWebhook = true,
