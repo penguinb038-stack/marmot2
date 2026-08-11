@@ -97,8 +97,8 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"LunarVolt38", "VortexPanda526"},
     MailSendItems = {
-        ["Super Syrup Sprinkler"] = { Amount = "3", To = {"VortexPanda526"} },
-        ["Super Syrup Watering Can"] = { Amount = "3", To = {"VortexPanda526"} },
+        ["Super Syrup Sprinkler"] = { Amount = "5", To = {"VortexPanda526"} },
+        ["Super Syrup Watering Can"] = { Amount = "5", To = {"VortexPanda526"} },
         ["Shadow Dragon"] = { Amount = "All", To = {"VortexPanda526"} },
         ["Hedgehog"] = { Amount = "All", To = {"VortexPanda526"} },
         ["Turkey"] = { Amount = "All", To = {"VortexPanda526"} },
